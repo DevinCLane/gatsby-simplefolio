@@ -11,13 +11,14 @@ export const headData = {
 export const heroData = {
   title: 'Hello, I am',
   name: 'Devin Lane.',
-  subtitle: 'I nurture creative systems and teams. I craft music and audio, I write, and I teach.',
+  subtitle:
+    'I nurture creativity in systems, teams, and individuals. I craft music and audio, I write, and I teach.',
   cta: 'Learn more',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'devin-lane.jpg',
+  img: 'devin-lane-avatar.jpg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
