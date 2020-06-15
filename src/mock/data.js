@@ -19,9 +19,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'devin-lane-avatar.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne:
+    "I'm a creative manager, producer, musician, and educator with 10+ years experience. I define and lead the development of creative teams, successful educational programs, and high-impact multimedia projects using the latest technologies.",
+  paragraphTwo:
+    "I have strong communication, writing, and storytelling skills. I nurture and cultivate fruitful, diverse, and healthy professional networks. I'm fluent in Spanish with extensive experience in Latin America.",
+  paragraphThree:
+    "I have a deep understanding of music/audio production/editing and writing/content strategy. I excel in Logic Pro X, Garageband, Pro Tools, Max/MSP, etc. I'm proficient in all modern creative tools, as well as HTML/CSS/JavaScript. I am passionate about learning and education.",
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -29,21 +32,23 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'Lightning-lessons-logo',
+    title: 'Founder and Teacher at Lightning Lessons',
+    info:
+      'Since 2007, I have run a small business teaching private music lessons and ensembles to a select group of students. In 2020, I rebranded as Lightning Lessons to reflect the growth of the business.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://www.lightninglessons.com/',
+    repo: 'https://github.com/DevinCLane/Lightning-Lessons-v2', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'ClimateMusic-Logo-blue.png',
+    title: 'Artist Engagement Manager at Climate Music Project',
+    info:
+      "Since 2020, I've helped to develop and scale strategic methodologies in close collaboration with the executive team to improve artist and scientist communications, expanding the creation of scientifically-faithful music that spurs public action on the climate crisis. I write, edit, produce, and advise on systems, documents, slide decks, websites, videos, scripts, animations, and audio examples. I consult, research, and report on projects for increased public engagement and new artist outreach. I am the point person for internally orienting and onboarding new artist collaborators.",
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://climatemusic.org/',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),

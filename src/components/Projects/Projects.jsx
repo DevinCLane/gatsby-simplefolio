@@ -27,10 +27,11 @@ const Projects = () => {
       <Container>
         <div className="project-wrapper">
           <Title title="Projects" />
-          {projects.map((project,index) => {
+          {projects.map((project, index) => {
             const { title, info, info2, url, repo, img } = project;
 
             return (
+              // eslint-disable-next-line react/no-array-index-key
               <Row key={index}>
                 <Col lg={4} sm={12}>
                   <Fade
@@ -55,7 +56,7 @@ const Projects = () => {
                         className="cta-btn cta-btn--hero"
                         href={url || '#!'}
                       >
-                        See Live
+                        See more
                       </a>
 
                       {repo && (
