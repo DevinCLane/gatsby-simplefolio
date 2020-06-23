@@ -35,7 +35,7 @@ export const projectsData = [
     img: 'Lightning-lessons-logo',
     title: 'Founder and Teacher at Lightning Lessons',
     info:
-      'Since 2007, I have run a small business teaching private music lessons and ensembles to a select group of students. In 2020, I rebranded as Lightning Lessons to reflect the growth of the business.',
+      'Since 2007, I have run a small business teaching private music lessons and ensembles with a select group of students. In 2020, I rebranded as Lightning Lessons to reflect the growth of the business.',
     info2: '',
     url: 'https://www.lightninglessons.com/',
     repo: 'https://github.com/DevinCLane/Lightning-Lessons-v2', // if no repo, the button will not show up
@@ -52,20 +52,31 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'Tenderloin-Guitarist.jpg',
+    title: 'Up On Top',
+    info:
+      "Since 2014, I have collaborated with Blue Bear School of Music's Outreach Director to develop and lead a grant-funded after-school program for youth in San Francisco's Tenderloin neighborhood.",
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://www.upontop.org/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'Tenderloin-Guitarist.jpg',
+    title: 'Up On Top',
+    info:
+      "Since 2014, I have collaborated with Blue Bear School of Music's Outreach Director to develop and lead a grant-funded after-school program for youth in San Francisco's Tenderloin neighborhood.",
+    info2: '',
+    url: 'https://www.upontop.org/',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
+  cta: 'Get in touch',
   btn: '',
-  email: '',
+  email: 'https://aemail.com/jR0R',
 };
 
 // FOOTER DATA
@@ -96,5 +107,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
